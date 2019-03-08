@@ -4,7 +4,6 @@ def run_guessing_game
   command = ""
   number = rand(1..6)
   while command
-    binding.pry
     puts "Guess a number between 1 and 6."
     command = gets.chomp
     if command == number
